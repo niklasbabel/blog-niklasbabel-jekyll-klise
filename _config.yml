@@ -13,11 +13,12 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Niklas Babel # author name
   bio: >- # tell to the world
-   about me in only 10 seconds:
+   <p> about me in only 10 seconds: <br>
    i've been a trampolinist, ramped up my marketing skills, managed projects as a scrum master, became head of digital and technical advisor to the ceo of berlin cuisine and now burning boats as chief of staff..
 
    enthusiastic about everything new. i thrive on understanding people better. berlin native.
    the greek poet archilochus wrote, “the fox knows many things, but the hedgehog knows one big thing.” can you guess which one i identify with?
+   </p>
   username: username # general username
   github: github_username # github username
   twitter: twitter_username # twitter username
