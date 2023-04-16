@@ -4,7 +4,7 @@
   functions = "functions"
 
 [[redirects]]
-  from = "/random_quote"
-  to = "/.netlify/functions/random_quote"
+  from = "/api/quote_generator"
+  to = "/.netlify/functions/quote_generator"
   status = 200
   force = true
