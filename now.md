@@ -13,12 +13,11 @@ think of it as:
 
 here’s what i’m up to now, in no particular order:
 
-* First item
 * shaping berlin cuisine
-- learning to say no (say *no* more often, simple, right?)
-- do several rides per week.wait ’till ride opens again.
-- boulder regularly with my friends or by myself – 1x a week at least
-- functional training in the park 2x /week
+* learning to say no (say *no* more often, simple, right?)
+* do several rides per week.wait ’till ride opens again.
+* boulder regularly with my friends or by myself – 1x a week at least
+* functional training in the park 2x /week
 
 `latest version:
 07 march 2021`
