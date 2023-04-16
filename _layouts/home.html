@@ -12,13 +12,22 @@ home: true
 
 <script>
 document.getElementById('getQuote').addEventListener('click', async () => {
-  // Fetch the random quote from the serverless function
-  const response = await fetch('/api/quote_generator');
-  const data = await response.json();
+  try {
+    // Fetch the random quote from the serverless function
+    const response = await fetch('/api/quote_generator');
 
-  // Display the quote and author in the HTML container
-  document.getElementById('quote').innerText = data.quote;
-  document.getElementById('author').innerText = '- ' + data.author;
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+
+    const data = await response.json();
+
+    // Display the quote and author in the HTML container
+    document.getElementById('quote').innerText = data.quote;
+    document.getElementById('author').innerText = '- ' + data.author;
+  } catch (error) {
+    console.error('Error fetching quote:', error);
+  }
 });
 </script>
 
