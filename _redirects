@@ -1,1 +1,1 @@
-/api/* /.netlify/functions/:splat 200
+/api/quote_generator /.netlify/functions/quote_generator 200
