@@ -3,10 +3,12 @@ layout: default
 home: true
 ---
 
-<p><b>quotes i like</b> &#8211; hit <b><a href="#" onclick="updateQuote();return false;">refresh</a></b> to see another one:</p>
+<h3 class="posts-item-note">quotes i like</h3>
+<p>hit <b><a href="#" onclick="updateQuote();return false;">refresh</a></b> to see another one:</p>
 <div id="quote">&nbsp;</div>
 
 <hr>
+<br>
 
 <h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
 
@@ -20,8 +22,9 @@ home: true
 {%- endfor -%}
 
 <hr>
+<br>
 
-<h3>listening</h3>
+<h3 class="posts-item-note">listening</h3>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5aWhs651KYM26HYM16kRdk?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <!-- Add this line right before the closing </body> tag -->
