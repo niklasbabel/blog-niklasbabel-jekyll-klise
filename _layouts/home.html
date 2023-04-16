@@ -10,6 +10,7 @@ home: true
   <p id="author"></p>
 </div>
 
+{% raw }
 <script>
 document.getElementById('getQuote').addEventListener('click', async () => {
   try {
@@ -30,7 +31,7 @@ document.getElementById('getQuote').addEventListener('click', async () => {
   }
 });
 </script>
-
+{% endraw %}
 
 <h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
 {%- for post in site.posts limit: site.number_of_posts -%}
