@@ -12,7 +12,7 @@ mode: dark # default theme "dark" | "light"
 # Profile settings
 author:
   name: Niklas Babel # author name
-  bio: >- # tell to the world
+  bio: |- # tell to the world; used "|" pipe instead of ">" right angle bracket
    about me in only 10 seconds:
    i've been a trampolinist, ramped up my marketing skills, managed projects as a scrum master, became head of digital and 
    technical advisor to the ceo of berlin cuisine and now burning boats as chief of staff.
@@ -28,7 +28,7 @@ author:
   avatar: /assets/img/avatar.jpg # change with your own avatar
 
 # URL settings
-url: "https://klise.now.sh" #
+url: "https://niklasbabel.netlify.app" #
 baseurl:
 permalink: /:title/
 google_analytics: # leave it blank if not wish
