@@ -12,7 +12,7 @@ today i work as chief of staff for <a href="https://www.berlin-cuisine.com/" tar
 
 to see what i’m up to right [now](/now) now, go here.
 
-some thoughts, aka [blog](https://niklasbabel.com/blog/), go here.
+some thoughts, aka [blog](/archive), go here.
 
 **may u needs ✨**
 
