@@ -10,7 +10,7 @@ some years ago i used to do trampolining and competed at the national level. i a
 
 today i work as chief of staff for <a href="https://www.berlin-cuisine.com/" target="_blank" rel="noopener">berlin cuisine</a>.
 
-to see what i’m up to right [now](https://niklasbabel.com/now/) now, go here.
+to see what i’m up to right [now](/now) now, go here.
 
 some thoughts, aka [blog](https://niklasbabel.com/blog/), go here.
 

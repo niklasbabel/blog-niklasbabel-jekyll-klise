@@ -136,20 +136,24 @@ figcaption {
 
 // List
 ul {
-  list-style: none;
-  li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-  }
-  li::before {
-    content: "\FE63";
-    display: inline-block;
-    top: -1px;
-    width: 1.2em;
-    position: relative;
-    margin-left: -1.3em;
-    font-weight: 700;
-  }
+  // Comment out or remove the following lines if you want to use default bullet points
+  // list-style: none;
+  // li {
+  //   display: list-item;
+  //   text-align: -webkit-match-parent;
+  // }
+  // li::before {
+  //   content: "\FE63";
+  //   display: inline-block;
+  //   top: -1px;
+  //   width: 1.2em;
+  //   position: relative;
+  //   margin-left: -1.3em;
+  //   font-weight: 700;
+  // }
+
+  // Add this line to use default bullet points
+  list-style-type: disc;
 }
 
 ol {
