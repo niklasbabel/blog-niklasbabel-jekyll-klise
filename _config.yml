@@ -89,6 +89,7 @@ exclude:
   - lighthouse.png
   - klise-*.gem
   - klise.gemspec
+  - .netlify  
 
 # Plugins
 plugins:
