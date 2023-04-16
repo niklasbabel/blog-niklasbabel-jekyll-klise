@@ -1,0 +1,10 @@
+[build]
+  command = "jekyll build"
+  publish = "_site"
+  functions = "functions"
+
+[[redirects]]
+  from = "/random_quote"
+  to = "/.netlify/functions/random_quote"
+  status = 200
+  force = true

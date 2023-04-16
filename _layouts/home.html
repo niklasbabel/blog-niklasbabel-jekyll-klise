@@ -3,6 +3,27 @@ layout: default
 home: true
 ---
 
+
+<button id="getQuote">Get Quote</button>
+<div id="quoteContainer">
+  <p id="quote"></p>
+  <p id="author"></p>
+</div>
+
+<script>
+document.getElementById('getQuote').addEventListener('click', async () => {
+  // Fetch the random quote from the serverless function
+  const response = await fetch('/random_quote');
+  const data = await response.json();
+
+  // Display the quote and author in the HTML container
+  document.getElementById('quote').innerText = data.quote;
+  document.getElementById('author').innerText = '- ' + data.author;
+});
+
+</script>
+
+
 <h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
 {%- for post in site.posts limit: site.number_of_posts -%}
 <article class="post-item">
@@ -12,3 +33,4 @@ home: true
   </h4>
 </article>
 {%- endfor -%}
+
