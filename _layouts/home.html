@@ -3,7 +3,6 @@ layout: default
 home: true
 ---
 
-
 <button id="getQuote">Get Quote</button>
 <div id="quoteContainer">
   <p id="quote"></p>
@@ -11,29 +10,32 @@ home: true
 </div>
 
 {% raw %}
+<script src="/.netlify/functions/quote_generator"></script>
 <script>
-document.getElementById('getQuote').addEventListener('click', async () => {
-  try {
-    // Fetch the random quote from the serverless function
-    const response = await fetch('/api/quote_generator');
-
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+  document.getElementById('getQuote').addEventListener('click', async () => {
+    console.log('JavaScript is running');
+    try {
+      // Fetch the random quote from the serverless function
+      const response = await fetch('/.netlify/functions/quote_generator');
+  
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+  
+      const data = await response.json();
+  
+      // Display the quote and author in the HTML container
+      document.getElementById('quote').innerText = data.quote;
+      document.getElementById('author').innerText = '- ' + data.author;
+    } catch (error) {
+      console.error('Error fetching quote:', error);
     }
-
-    const data = await response.json();
-
-    // Display the quote and author in the HTML container
-    document.getElementById('quote').innerText = data.quote;
-    document.getElementById('author').innerText = '- ' + data.author;
-  } catch (error) {
-    console.error('Error fetching quote:', error);
-  }
-});
+  });
 </script>
 {% endraw %}
 
 <h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
+
 {%- for post in site.posts limit: site.number_of_posts -%}
 <article class="post-item">
   <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
