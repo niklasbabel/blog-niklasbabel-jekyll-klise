@@ -13,14 +13,13 @@ home: true
 <script>
 document.getElementById('getQuote').addEventListener('click', async () => {
   // Fetch the random quote from the serverless function
-  const response = await fetch('/random_quote');
+  const response = await fetch('/api/quote_generator');
   const data = await response.json();
 
   // Display the quote and author in the HTML container
   document.getElementById('quote').innerText = data.quote;
   document.getElementById('author').innerText = '- ' + data.author;
 });
-
 </script>
 
 
@@ -33,4 +32,3 @@ document.getElementById('getQuote').addEventListener('click', async () => {
   </h4>
 </article>
 {%- endfor -%}
-
