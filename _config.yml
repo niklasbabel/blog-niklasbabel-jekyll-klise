@@ -1,5 +1,5 @@
 # Site settings
-title: Klise Theme # site title
+title: niklas babel # site title
 description: >- # site description
   He's writing in Bahasa about web technology and experience as a journal 
   for documentation things that he learned, meet him <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
@@ -12,7 +12,7 @@ mode: dark # default theme "dark" | "light"
 # Profile settings
 author:
   name: Niklas Babel # author name
-  bio: |- # tell to the world; used "|" pipe instead of ">" right angle bracket
+  bio: >- # tell to the world
    about me in only 10 seconds:
    i've been a trampolinist, ramped up my marketing skills, managed projects as a scrum master, became head of digital and 
    technical advisor to the ceo of berlin cuisine and now burning boats as chief of staff.
@@ -28,7 +28,7 @@ author:
   avatar: /assets/img/avatar.jpg # change with your own avatar
 
 # URL settings
-url: "https://niklasbabel.netlify.app" #
+url: "https://niklasbabel.app" #
 baseurl:
 permalink: /:title/
 google_analytics: # leave it blank if not wish

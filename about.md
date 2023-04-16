@@ -1,16 +1,18 @@
 ---
-title: Colophon
+title: niklas
 permalink: /about/
 layout: page
 excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
 comments: false
 ---
 
-He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+some years ago i used to do trampolining and competed at the national level. i also did some gymnastics. these days i do bouldering and enjoy diving and skiing.
 
-If you have a question about him or else, just send a letter to him.
+today i work as chief of staff for <a href="https://www.berlin-cuisine.com/" target="_blank" rel="noopener">berlin cuisine</a>.
 
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
+to see what i’m up to right [now](https://niklasbabel.com/now/) now, go here.
+
+some thoughts, aka [blog](https://niklasbabel.com/blog/), go here.
 
 **may u needs ✨**
 
