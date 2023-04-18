@@ -2,7 +2,7 @@
 layout: photo_set
 title: photostream
 permalink: /photostream/
-description: "An example photo gallery."
+description: "photostream."
 
 photos:
     set: berlin
